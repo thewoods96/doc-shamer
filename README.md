@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/thewoods96/doc-shamer.svg?style=flat-square)](https://packagist.org/packages/thewoods96/doc-shamer)
 [![Total Downloads](https://img.shields.io/packagist/dt/thewoods96/doc-shamer.svg?style=flat-square)](https://packagist.org/packages/thewoods96/doc-shamer)
-![GitHub Actions](https://github.com/thewoods96/doc-shamer/actions/workflows/main.yml/badge.svg)
 
 A basic Laravel Artisan command to check an OpenAPI spec against application API routes to summarise doc coverage.
 
