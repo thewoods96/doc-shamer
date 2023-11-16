@@ -1,10 +1,10 @@
-# Very short description of the package
+# Doc Shamer
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/thewoods96/doc-shamer.svg?style=flat-square)](https://packagist.org/packages/thewoods96/doc-shamer)
 [![Total Downloads](https://img.shields.io/packagist/dt/thewoods96/doc-shamer.svg?style=flat-square)](https://packagist.org/packages/thewoods96/doc-shamer)
 ![GitHub Actions](https://github.com/thewoods96/doc-shamer/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+A basic Laravel Artisan command to check an OpenAPI spec against application API routes to summarise doc coverage.
 
 ## Installation
 
@@ -16,9 +16,16 @@ composer require thewoods96/doc-shamer
 
 ## Usage
 
-```php
-// Usage description here
+**Usage:**
+```bash
+$ php artisan doc-shamer [options] [arguments]
 ```
+#### Options:
+
+--show-coverage: Output tables detailing documented, missing and ignored routes
+
+--dry-run: When set to true the command will always exit with status 0 regardless of doc coverage.
+
 
 ### Testing
 
